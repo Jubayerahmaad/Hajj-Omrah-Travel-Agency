@@ -1,0 +1,89 @@
+/* Site Colors Varibles  */
+:root{
+    --text-bg : #CECECE;
+    --text-white: #FFFFFF;
+    --text-black: #000000;
+    --text-desc: #343434;
+    --sub-text: #006FFD;
+    --strock-text: #CCCCCC;
+}
+
+/* Comon Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Lexend Deca' , sans-serif;
+    font-weight: 400;
+}
+.container{
+    width: 1676px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 57px;
+    line-height: 55%;
+    font-weight: 500;
+    color: var(--text-black);
+}
+.sub-title{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32%;
+    padding: 5px 20px;
+    border-radius: 51px;
+    border: 1px solid var(--strock-text);
+    color: var(--sub-text);
+}
+.desc {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30%;
+    color: var(--text-desc);
+}
+/* header css */
+header{
+    background-image: url(../image/Heder-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1676px;
+    height: 1060px;
+    margin: 25px auto;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 51px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 61px;
+}
+nav ul li a{
+    font-size: 18px;
+    color: var(--text-white);
+}
+.hero-header h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 85px;
+    line-height: 95%;
+    letter-spacing: -3%;
+    max-width: 1211px;
+    margin-top: 166px;
+    color: var(--text-white);
+    font-weight: 400;
+}
+
