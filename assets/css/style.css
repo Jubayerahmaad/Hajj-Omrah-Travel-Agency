@@ -9,7 +9,6 @@
 }
 
 /* Comon Css */
-
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +25,7 @@ body{
     font-weight: 400;
 }
 .container{
-    width: 1676px;
+    width: 1528px;
     margin: 0 auto;
 }
 .title{
@@ -38,18 +37,20 @@ body{
 .sub-title{
     font-size: 18px;
     font-weight: 400;
-    line-height: 32%;
+    line-height: 32px;
     padding: 5px 20px;
     border-radius: 51px;
     border: 1px solid var(--strock-text);
     color: var(--sub-text);
+    margin-bottom: 25px;
 }
 .desc {
     font-size: 20px;
     font-weight: 400;
-    line-height: 30%;
+    line-height: 30px;
     color: var(--text-desc);
 }
+
 /* header css */
 header{
     background-image: url(../image/Heder-img.png);
@@ -57,7 +58,7 @@ header{
     background-position: center;
     background-size: cover;
     width: 1676px;
-    height: 1060px;
+    height: 1068.35px;
     margin: 25px auto;
 }
 .header-wrapper{
@@ -74,16 +75,72 @@ nav ul{
 nav ul li a{
     font-size: 18px;
     color: var(--text-white);
+    position: relative;
+}
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 43px;
+    height: 2px;
+    color: var(--text-white);
+    bottom: -8%;
+    left: 7%;
+    display: block;
 }
 .hero-header h1 {
     text-align: center;
     margin: 0 auto;
     font-size: 85px;
-    line-height: 95%;
+    line-height: 95px;
     letter-spacing: -3%;
     max-width: 1211px;
     margin-top: 166px;
     color: var(--text-white);
     font-weight: 400;
 }
-
+/* sponsor area */
+.sponsor-section{
+    padding: 28px 0px 54px 0px;
+}
+.sponsor-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+/* About section */
+section.about-section {
+    margin-bottom: 78px;
+}
+.about-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 137px;
+}
+.primery-text{
+    color: var(--text-black);
+}
+.about-content p{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    max-width: 752px;
+    color: var(--text-desc);
+    margin-top: 19px;
+}
+.about-counter {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 129px;
+    margin-top: 235px;
+}
+.count-item {
+    font-size: 48px;
+}
+.count-title{
+    display: block;
+    font-size: 22px;
+    line-height: 55px;
+    font-weight: 300;
+}
