@@ -6,6 +6,7 @@
     --text-desc: #343434;
     --sub-text: #006FFD;
     --strock-text: #CCCCCC;
+    --text-black-2: #343434;
 }
 
 /* Comon Css */
@@ -43,8 +44,11 @@ body{
     border: 1px solid var(--strock-text);
     color: var(--sub-text);
     margin-bottom: 25px;
+    display: inline-block;
+    width: 146px;
+    text-align: center;
 }
-.desc {
+.description {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -143,4 +147,42 @@ section.about-section {
     font-size: 22px;
     line-height: 55px;
     font-weight: 300;
+}
+/* Service Section */
+.service-title p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--text-black-2);
+    margin: 24px 0px 39px 0px;
+    max-width: 875px;
+}
+.service-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-item {
+    width: 33%;
+    height: 30%;
+}
+
+/* consult section */
+.consult-section{
+    padding: 102px 0px 130px 0px;
+}
+.consult-title p{
+    max-width: 911px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--text-black-2);
+    margin-top: 24px;
+}
+.consult-mentor-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+a.sub-title {
+    width: 176px;
 }
