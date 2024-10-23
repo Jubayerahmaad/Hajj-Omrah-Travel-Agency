@@ -254,3 +254,40 @@ button.secoundery-btn {
     margin: 55px auto auto auto;
     display: block;
 }
+
+/* tutorial section */
+.tutorial-section{
+    padding: 50px 0px 105px 0px;
+}
+
+.tutorial-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.tutorial-title {
+    max-width: 492px;
+}
+.gide-btn {
+    margin-top: -50px;
+    margin-left: -150px;
+}
+.tutorial-title h1{
+    font-size: 57px;
+    font-family: 400;
+    line-height: 67px;
+    
+}
+.tutorial-title p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--text-black-2);
+    padding: 27px 0px 35px 0px;
+}
+.video-wrapper{
+    display: flex;
+    gap: 25px;
+    margin-top: 90px;
+}
