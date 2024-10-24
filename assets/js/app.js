@@ -1,0 +1,2 @@
+// Counter Up 
+$('.counter').counterUp();

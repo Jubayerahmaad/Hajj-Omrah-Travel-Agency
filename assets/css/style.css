@@ -112,6 +112,7 @@ nav ul li a::after {
     color: var(--text-white);
     font-weight: 400;
 }
+
 /* sponsor area */
 .sponsor-section{
     padding: 28px 0px 54px 0px;
@@ -121,6 +122,7 @@ nav ul li a::after {
     align-items: center;
     justify-content: space-between
 }
+
 /* About section */
 section.about-section {
     margin-bottom: 78px;
@@ -158,6 +160,7 @@ section.about-section {
     line-height: 55px;
     font-weight: 300;
 }
+
 /* Service Section */
 .service-title p{
     font-size: 20px;
@@ -196,6 +199,7 @@ section.about-section {
 a.sub-title {
     width: 176px;
 }
+
 /* Package Section */
 .package-section{
     padding: 50px 0px;
@@ -240,8 +244,14 @@ a.sub-title {
     line-height: 100%;
     margin-left: 8px;
 }
+.divider{
+    width: 100%;
+    height: 2px;
+    background-color: var(--strock-text);
+    margin: 31px 0px 24px 0px;
+}
 .package-content ul{
-    margin-top: 49px;
+    margin-top: 30px;
     padding: 0px 32px;
 }
 .package-content ul li{
@@ -254,6 +264,7 @@ button.secoundery-btn {
     margin: 55px auto auto auto;
     display: block;
 }
+
 
 /* tutorial section */
 .tutorial-section{
@@ -290,4 +301,76 @@ button.secoundery-btn {
     display: flex;
     gap: 25px;
     margin-top: 90px;
+}
+
+/* Footer Section  */
+footer{
+    background-color: #070707;
+    width: 1674px;
+    height: 514px;
+    margin: 0 auto;
+    border-radius: 29px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--text-white);
+    max-width: 408px;
+    padding: 35px 0px;
+}
+.footer-social ul{
+    display: flex;
+    gap: 9px;
+}
+.footer-menu-item ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #E1E1E1;
+}
+.footer-title{
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text-white);
+    line-height: 22px;
+    margin-bottom: 22px;
+}
+.news-latter form {
+    margin-top: 70px;    
+}
+.news-latter input{
+    padding: 10px 20px;
+    border-radius: 39px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--text-white);
+}
+.news-latter input::placeholder{
+    color: var(--text-white);
+}
+.news-latter button{
+    display: block;
+    padding: 10px 79px;
+    border-radius: 39px;
+    text-align: center;
+    margin-top: 18px;
+}
+.copyright{
+    margin-top: 61px;
+    color: var(--text-white);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #E1E1E1;
 }
