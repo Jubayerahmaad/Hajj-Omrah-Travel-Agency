@@ -1,0 +1,73 @@
+@media (width < 760px) {
+    .container{
+        max-width: 100%;
+        padding: 20px;
+    }
+    /* sponsor section */
+    .sponsor-wrapper{
+        flex-wrap: wrap;
+    }
+   
+    /* about section */
+    .about-wrapper{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .about-counter {
+        flex-wrap: wrap;
+    }
+    /* service section */
+    .service-section{
+        padding: 50px 0px;
+    }
+    .service-title h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .service-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    /* Consult section */
+    section.about-section {
+        margin-bottom: 0px;
+    }
+    .consult-mentor-wrapper{
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 40px;
+    }
+    .consult-title h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    /* package section */
+    .package-section{
+        padding: 0px 0px;
+    }
+    .package-title h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .package-wrapper{
+        flex-direction: column;
+    }
+    /* tutorial sectiona */
+    .tutorial-wrapper {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .tutorial-title h1{
+        font-size: 40px;
+        font-family: 400;
+        line-height: 50px;  
+    }
+    .gide-btn {
+        margin-top: -50px;
+        margin-left: -90px;
+    }
+    .video-wrapper{
+        flex-direction: column;
+    }
+    /* footer section */
+}
